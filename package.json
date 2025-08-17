@@ -1,0 +1,16 @@
+{
+  "name": "tema-wordpress-aztra-elementor",
+  "version": "1.0.0",
+  "description": "Tema WordPress minimalista com um page builder integrado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
+}
