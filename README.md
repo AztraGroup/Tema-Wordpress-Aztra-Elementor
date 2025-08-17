@@ -18,6 +18,13 @@ Tema WordPress minimalista com um page builder integrado.
 - Suporte a templates padrão (single, page, archive, search, 404).
 - Template adicional `templates/full-width.php` para páginas sem barras laterais.
 
+## Personalização
+
+O tema expõe algumas opções básicas no **Customizer** em `Aparência > Personalizar`:
+
+- **Cor Primária**: define a cor aplicada aos links e ao texto principal.
+- **Fonte do Corpo**: seleciona a tipografia utilizada no corpo do site.
+
 ## Desenvolvimento
 
 Os arquivos de scripts e estilos do builder estão localizados em `plugins/aztra-builder/admin/`.
