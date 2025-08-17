@@ -1,0 +1,6 @@
+#aztra-builder-root {
+    min-height: 200px;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    background: #fff;
+}
