@@ -1,0 +1,17 @@
+/*
+Theme Name: Aztra Theme
+Theme URI: https://example.com/aztra-theme
+Author: Your Name
+Author URI: https://example.com
+Description: Tema base para o page builder Aztra, inspirado no Hello Elementor.
+Version: 0.1.0
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: aztra
+*/
+
+/* Estilos base do tema */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
