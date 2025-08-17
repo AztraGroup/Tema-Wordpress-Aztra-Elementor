@@ -15,6 +15,7 @@ define( 'AZTRA_BUILDER_VERSION', '0.1.0' );
 if ( ! class_exists( 'Aztra_Widget_Text' ) ) {
     require_once get_template_directory() . '/inc/widgets/class-aztra-widget-base.php';
     require_once get_template_directory() . '/inc/widgets/class-aztra-widget-text.php';
+    require_once get_template_directory() . '/inc/widgets/class-aztra-widget-image.php';
 }
 
 /**
@@ -59,3 +60,21 @@ function aztra_builder_shortcode( $atts, $content = '' ) {
     return ob_get_clean();
 }
 add_shortcode( 'aztra_text', 'aztra_builder_shortcode' );
+
+/**
+ * Shortcode para renderizar widgets de imagem.
+ */
+function aztra_builder_image_shortcode( $atts ) {
+    $atts = shortcode_atts(
+        array(
+            'url' => '',
+            'alt' => '',
+        ),
+        $atts
+    );
+    $widget = new Aztra_Widget_Image();
+    ob_start();
+    $widget->render( $atts );
+    return ob_get_clean();
+}
+add_shortcode( 'aztra_image', 'aztra_builder_image_shortcode' );

@@ -14,7 +14,8 @@ Tema WordPress minimalista com um page builder integrado.
 - Estrutura de tema leve inspirada no Hello Elementor.
 - Widgets básicos com API simples para expansão.
 - Page builder com interface de arrastar e soltar (protótipo).
-- Shortcode `[aztra_text]` para renderizar widgets de texto.
+- Shortcodes `[aztra_text]` e `[aztra_image url="" alt=""]` para renderizar widgets de texto e imagem.
+- Suporte a templates padrão (single, page, archive, search, 404).
 
 ## Desenvolvimento
 

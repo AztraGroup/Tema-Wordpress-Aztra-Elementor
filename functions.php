@@ -34,6 +34,7 @@ add_action( 'wp_enqueue_scripts', 'aztra_theme_scripts' );
  */
 require_once get_template_directory() . '/inc/widgets/class-aztra-widget-base.php';
 require_once get_template_directory() . '/inc/widgets/class-aztra-widget-text.php';
+require_once get_template_directory() . '/inc/widgets/class-aztra-widget-image.php';
 
 /**
  * Integração com o plugin Aztra Builder.
